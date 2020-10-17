@@ -1,6 +1,16 @@
 package classwork;
 
-public class MyFloat {
+public class MyFloat
     private long mantissa;
     private long exponent;
-}
+ 
+    public MyFloat(long mantissa, long exponent){
+        this.mantissa = mantissa;
+        this.exponent = exponent;
+    }
+    
+    public void sum (MyFloat b) {
+        long mant = this.mantissa;
+        long mant1 = b.mantissa;
+        long exp = Math.max(this.exponent, b.exponent);
+ long rez = 0;
