@@ -1,0 +1,6 @@
+package classwork;
+
+public class MyFloat {
+    private long mantissa;
+    private long exponent;
+}
