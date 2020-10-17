@@ -1,0 +1,2 @@
+# MyFloat
+Class MyFloat
